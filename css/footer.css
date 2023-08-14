@@ -1,0 +1,80 @@
+.footer_style {
+  background-color: #020202;
+  padding: 45px 0 0 0; }
+
+@media screen and (min-width: 576px) {
+  .top_container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #828282; } }
+
+@media screen and (min-width: 576px) {
+  .top_container .right_col {
+    width: 25%; } }
+
+@media screen and (max-width: 576px) {
+  .top_container .right_col {
+    margin-bottom: 40px; } }
+
+.top_container .address {
+  color: #fff;
+  margin: 15px 0; }
+
+.top_container .second_right_col {
+  color: #fff;
+  text-align: right; }
+  .top_container .second_right_col ul {
+    padding-right: 25px; }
+    .top_container .second_right_col ul li {
+      margin-top: 15px; }
+  .top_container .second_right_col .title {
+    font-size: 1.2em; }
+  @media screen and (min-width: 576px) {
+    .top_container .second_right_col {
+      width: 25%; } }
+  @media screen and (max-width: 576px) {
+    .top_container .second_right_col {
+      margin-bottom: 40px; } }
+
+.top_container .second_left_col {
+  text-align: right;
+  color: #fff; }
+  .top_container .second_left_col ul {
+    padding-right: 25px; }
+    .top_container .second_left_col ul li {
+      margin-top: 15px; }
+  .top_container .second_left_col .title {
+    font-size: 1.2em; }
+  @media screen and (min-width: 576px) {
+    .top_container .second_left_col {
+      width: 25%; } }
+  @media screen and (max-width: 576px) {
+    .top_container .second_left_col {
+      margin-bottom: 40px; } }
+
+.top_container .left_col {
+  text-align: right;
+  color: #fff; }
+  .top_container .left_col ul {
+    list-style-type: none; }
+    .top_container .left_col ul li {
+      margin-top: 15px; }
+  .top_container .left_col .title {
+    font-size: 1.2em; }
+  @media screen and (min-width: 576px) {
+    .top_container .left_col {
+      width: 25%; } }
+
+.bottom_container {
+  color: #fff;
+  padding-bottom: 40px; }
+  .bottom_container .top {
+    margin: 35px 0 20px; }
+  .bottom_container .bottom {
+    margin: 10px 0  20px 0; }
+  .bottom_container .middle {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center; }
